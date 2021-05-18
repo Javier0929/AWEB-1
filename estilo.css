@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-image: url(Fondo1.jpg)
+}
+
+.form-registro{
+
+  width: 550px; /* ancho*/
+  background:#24303c;
+  padding: 30px; /* Para que no esten los borde pegados en un contenido*/
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+
+}
+
+.form-registro h4{
+ 
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.controles{
+
+  width: 100%;
+  background: wheat;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid greenyellow ;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: rgb(17, 16, 16);
+}
+
+.form-registro p{
+
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+
+}
+
+.form-registro a{
+
+  color: white;
+  text-decoration: none;
+
+}
+
+.form-registro a:hover{
+
+  color: white;
+  text-decoration: underline;
+  
+}
+
+.form-registro .botons {
+
+  width: 100%;
+  background: rgb(177, 226, 43);
+  border: none;
+  padding: 12px;
+  color: rgb(10, 10, 10);
+  margin: 16px 0;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
